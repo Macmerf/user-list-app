@@ -1,0 +1,15 @@
+{
+  "entryPoints": ["src/**/*.ts"],
+  "out": "docs",
+  "includeVersion": true,
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "theme": "default",
+  "tsconfig": "./tsconfig.json",
+  "readme": "README.md",
+  "name": "User List",
+  "hideGenerator": true,
+  "sort": "alphabetical",
+  "disableSources": true,
+  "plugin": ["typedoc-plugin-vue"]
+}
